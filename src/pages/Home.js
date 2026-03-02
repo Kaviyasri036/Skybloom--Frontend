@@ -41,7 +41,7 @@ const Home = () => {
       <div className="home-info">
         <h2>SkyBloom Organic Beauty Look Book</h2>
         <p>Discover Nature’s Best – 100% Organic & Cruelty-Free Products</p>
-        <button className="shop-now-btn">Shop Now</button>
+        
       </div>
     </div>
   );
