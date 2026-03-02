@@ -1,12 +1,15 @@
 import React, { useEffect, useState, useContext } from "react";
 import { CartContext } from "../context/CartContext";
+import API_BASE_URL from "../config";
 
 const Shop = () => {
   const [products, setProducts] = useState([]);
   const { addToCart, addToWishlist } = useContext(CartContext);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/products/") // ✅ Django API endpoint
+    
+
+fetch(`${API_BASE_URL}products/`)
       .then((res) => res.json())
       .then((data) => {
         console.log("Fetched products:", data); // Debug check

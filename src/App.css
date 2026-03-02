@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #4db6e2;
+  --primary-color: #e24da6;
   --secondary-color: #e6f7ff;
 }
 
@@ -146,7 +146,7 @@ body {
 .top-banner {
   background-color: #b3e5fc;
   text-align: center;
-  color: #01579b;
+  color: #9b0139;
   padding: 10px;
   font-weight: 500;
   font-size: 15px;
@@ -209,7 +209,7 @@ body {
 .top-banner {
   background: linear-gradient(90deg, #b3e5fc, #4db6e2);
   text-align: center;
-  color: #01579b;
+  color: #9b0153;
   padding: 12px;
   font-weight: 500;
   font-size: 15px;
@@ -288,7 +288,7 @@ body {
 
 /* 🌸 SHOP BUTTON */
 .glow-btn {
-  background-color: #4db6e2;
+  background-color: #d14de2;
   color: white;
   border: none;
   padding: 12px 25px;
@@ -314,7 +314,7 @@ body {
 }
 
 .home-products h2 {
-  color: #01579b;
+  color: #9b0149;
   margin-bottom: 2rem;
   font-size: 1.8rem;
 }
@@ -460,7 +460,7 @@ body {
 
 .add-btn,
 .remove-btn {
-  background-color: #4db6e2;
+  background-color: #e24db3;
   color: white;
   border: none;
   padding: 8px 15px;
@@ -630,7 +630,7 @@ body {
 
 .home-btn {
   margin-top: 20px;
-  background-color: #4db6e2;
+  background-color: #e24da9;
   border: none;
   padding: 10px 20px;
   color: white;
@@ -641,7 +641,7 @@ body {
 }
 
 .home-btn:hover {
-  background-color: #0288d1;
+  background-color: #ca02d1;
 }
 
 @keyframes fadeIn {
@@ -697,4 +697,61 @@ body {
 
 .slick-dots li.slick-active button:before {
   color: #4db6e2 !important;
+}
+.checkout-page {
+  background-color: #e3f2fd;
+  padding: 2rem;
+  min-height: 90vh;
+}
+
+.checkout-form {
+  background-color: #fff;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout-form label {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #01579b;
+}
+
+.checkout-form input,
+.checkout-form textarea {
+  padding: 10px;
+  border: 1px solid #b0bec5;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.checkout-summary {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #0277bd;
+  text-align: right;
+}
+
+.confirm-btn {
+  margin-top: 20px;
+  background-color: #4db6e2;
+  border: none;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.confirm-btn:hover {
+  background-color: #0288d1;
+}
+
+.required {
+  color: red;
 }
