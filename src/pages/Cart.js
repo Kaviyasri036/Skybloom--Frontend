@@ -11,12 +11,7 @@ const Cart = () => {
       ? cartItems.reduce((acc, item) => acc + item.price, 0)
       : 0;
 
-  const handleCheckout = () => {
-    // 🟢 Simulate a short delay for fake payment processing
-    setTimeout(() => {
-      navigate("/payment-success");
-    }, 1000);
-  };
+ 
 
   return (
     <div className="cart-page">
